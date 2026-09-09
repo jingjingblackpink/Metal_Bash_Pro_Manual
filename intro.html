@@ -1,61 +1,56 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>产品简介 · 金属浴PRO</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>产品简介 · 金属浴PRO</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a href="index.html" class="back-link">← 返回首页</a>
-      <h1>产品简介</h1>
-    </header>
-
-    <main class="content">
-      <section class="feature-list">
-        <div class="feature-item">
-          <h3>精准控温</h3>
-          <p>采用 PID 智能温控算法，控温精度 ±0.1°C，确保实验温度稳定可靠。</p>
-        </div>
-        <div class="feature-item">
-          <h3>快速升温</h3>
-          <p>高效加热模块，从室温升至 100°C 仅需数分钟，节省实验等待时间。</p>
-        </div>
-        <div class="feature-item">
-          <h3>多种模块可选</h3>
-          <p>支持更换不同规格的加热模块，适配 0.2mL ~ 50mL 多种离心管及试管。</p>
-        </div>
-        <div class="feature-item">
-          <h3>安全防护</h3>
-          <p>内置过热保护、温控异常报警，确保实验操作安全。</p>
-        </div>
-        <div class="feature-item">
-          <h3>操作简便</h3>
-          <p>LED 数码显示屏，按键操作直观，可预设常用温度和时间程序。</p>
-        </div>
-        <div class="feature-item">
-          <h3>应用广泛</h3>
-          <p>适用于样品孵育、酶反应、DNA 变性、血清灭活等分子生物学实验。</p>
-        </div>
-      </section>
-
-      <section class="params">
-        <h2>技术参数</h2>
-        <table>
-          <tr><td>控温范围</td><td>室温 +5°C ~ 150°C</td></tr>
-          <tr><td>控温精度</td><td>±0.1°C</td></tr>
-          <tr><td>显示精度</td><td>0.1°C</td></tr>
-          <tr><td>定时范围</td><td>1min ~ 99h59min</td></tr>
-          <tr><td>输入电源</td><td>AC 220V / 50Hz</td></tr>
-        </table>
-      </section>
-
-      <div class="action-bar">
-        <a href="manuals.html" class="btn btn-primary">📘 查看产品说明书</a>
-      </div>
-    </main>
+  <div class="topbar">
+    <a class="back" href="index.html">‹ 返回首页</a>
+    <span class="title">产品简介</span>
   </div>
+
+  <main class="wrap" style="padding-top:24px">
+    <div class="card">
+      <h3>金属浴PRO 智能恒温金属浴</h3>
+      <p>B5 PRO —— 面向实验室的高精度恒温金属浴加热仪器，采用 PID 智能温控与模块化设计，为分子生物学实验提供稳定可靠的温度环境。</p>
+      <ul class="features">
+        <li><span class="dot">●</span><span>PID 智能温控，控温精度 ±0.1°C</span></li>
+        <li><span class="dot">●</span><span>高效加热模块，室温升至 100°C 仅需数分钟</span></li>
+        <li><span class="dot">●</span><span>多种加热模块可选，适配 0.2mL ~ 50mL 离心管及试管</span></li>
+        <li><span class="dot">●</span><span>内置过热保护与温控异常报警，实验安全可靠</span></li>
+        <li><span class="dot">●</span><span>LED 数码显示，按键操作直观，可预设温度与定时程序</span></li>
+        <li><span class="dot">●</span><span>适用于样品孵育、酶反应、DNA 变性、血清灭活等实验</span></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>技术参数</h3>
+      <table class="param-table">
+        <tr><td>控温范围</td><td>室温 +5°C ~ 150°C</td></tr>
+        <tr><td>控温精度</td><td>±0.1°C</td></tr>
+        <tr><td>显示精度</td><td>0.1°C</td></tr>
+        <tr><td>定时范围</td><td>1min ~ 99h59min</td></tr>
+        <tr><td>输入电源</td><td>AC 220V / 50Hz</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h3>查看完整说明书</h3>
+      <p>如需查看详细操作说明，请下载中英文版产品说明书。</p>
+      <a class="btn" href="manuals.html" style="margin-top:10px">
+        <span class="ico manual">📘</span>
+        <span class="txt"><strong>产品说明书下载</strong><span>中文版 / 英文版</span></span>
+        <span class="arrow">›</span>
+      </a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="brand">金属浴PRO · B5 PRO</div>
+    <div>扫描二维码 · 随时查阅产品说明书</div>
+  </footer>
 </body>
 </html>
